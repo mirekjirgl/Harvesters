@@ -1,18 +1,10 @@
-<<<<<<< HEAD
 Cíl:
+
 - konfigurace energy management obvodu EM8500
+
+
 
 Komponenty:
 - FRDM kl25-z
 - EM8500 - energy management circuit
 - solární èlánek 55x55x3, Uoc = 2V
-
-=======
-Cíl:
-- konfigurace energy management obvodu EM8500
-
-Komponenty:
-- FRDM kl25-z
-- EM8500 - energy management circuit
-
->>>>>>> 4f22bbf715c4e2ee454e48a58966618bed7c5d5c
