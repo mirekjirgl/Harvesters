@@ -143,7 +143,7 @@ int main(void)
   // Start
   printf("START\r\n");
 
-
+  // Cteni registru
   printf("dev_status (0x22 ro): 0x%x\r\n", SPI_read_byte(0x22));
   printf("storage_status (0x23 ro): 0x%x\r\n", SPI_read_byte(0x23));
   printf("mpp_ratio (0x12 rw): 0x%x\r\n", SPI_read_byte(0x12));
@@ -160,8 +160,9 @@ int main(void)
   printf("reg_lux_cgf (0x1C rw): 0x%x\r\n", SPI_read_byte(0x1C));
   printf("reg_lux_result (0x1D ro): 0x%x\r\n", SPI_read_byte(0x1D));
   
-  
   WAIT1_Waitms(100);
+  
+  // Nastaveni registru
   SPI_write_byte(0x1C, 0x20);
   WAIT1_Waitms(100);
   printf("reg_lux_cgf (0x1C rw): 0x%x\r\n", SPI_read_byte(0x1C));
