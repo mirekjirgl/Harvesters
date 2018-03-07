@@ -1,0 +1,7 @@
+Cíl:
+- konfigurace energy management obvodu EM8500
+
+Komponenty:
+- FRDM kl25-z
+- EM8500 - energy management circuit
+
