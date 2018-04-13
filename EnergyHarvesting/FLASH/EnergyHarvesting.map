@@ -4,6 +4,10 @@ F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/a
                               ./Sources/main.o (printf)
 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
                               ./Sources/main.o (puts)
+F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+                              ./Sources/main.o (scanf)
+F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+                              F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o) (__ungetc)
 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
                               ./Project_Settings/Startup_Code/__arm_start.o (exit)
 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
@@ -14,6 +18,8 @@ F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/a
                               (__sformatter_FP)
 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
                               F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o) (isspace)
+F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
+                              F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o) (__get_char)
 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
                               F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o) (__put_char)
 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
@@ -235,6 +241,13 @@ Discarded input sections
  .text          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
  .data          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
  .bss           0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
+ .text          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+ .data          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+ .bss           0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+ .text          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+ .data          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+ .bss           0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+ .text.ungetc   0x00000000        0x8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
  .text          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
  .data          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
  .bss           0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
@@ -259,6 +272,9 @@ Discarded input sections
  .text.ispunct  0x00000000       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
  .text.isblank  0x00000000       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
  .text.tolower  0x00000000        0xe F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .text          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
+ .data          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
+ .bss           0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
  .text          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
  .data          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
  .bss           0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
@@ -341,8 +357,6 @@ Discarded input sections
  .text          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
  .data          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
  .bss           0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
- .text.__load_buffer
-                0x00000000       0x44 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
  .text          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
  .data          0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
  .bss           0x00000000        0x0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
@@ -570,8 +584,8 @@ LOAD ./Project_Settings/Startup_Code/__arm_end.o
 LOAD ./Sources/sa_mtb.o
 LOAD ./Sources/main.o
 LOAD ./Sources/Events.o
-                0x00003e80                __pformatter = __pformatterFPLL
-                0x00004750                __sformatter = __sformatter_FP
+                0x00004160                __pformatter = __pformatterFPLL
+                0x00004a30                __sformatter = __sformatter_FP
 START GROUP
 LOAD F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a
 LOAD F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a
@@ -599,7 +613,7 @@ END GROUP
                 0x00000400                _cfm
                 0x00000410                . = ALIGN (0x4)
 
-.text           0x00000410     0x7020
+.text           0x00000410     0x74e0
                 0x00000410                . = ALIGN (0x4)
  *(.text)
  .text          0x00000410       0x14 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_sqi.o)
@@ -757,157 +771,171 @@ END GROUP
                 0x00003504        0xc ./Project_Settings/Startup_Code/__arm_end.o
                 0x00003504                _ExitProcess
  .text.SPI_write_byte
-                0x00003510      0x190 ./Sources/main.o
+                0x00003510      0x304 ./Sources/main.o
                 0x00003510                SPI_write_byte
  .text.SPI_read_byte
-                0x000036a0      0x1d8 ./Sources/main.o
-                0x000036a0                SPI_read_byte
- .text.main     0x00003878      0x1dc ./Sources/main.o
-                0x00003878                main
+                0x00003814      0x1e0 ./Sources/main.o
+                0x00003814                SPI_read_byte
+ .text.main     0x000039f4      0x290 ./Sources/main.o
+                0x000039f4                main
  .text.Cpu_OnNMIINT
-                0x00003a54        0x8 ./Sources/Events.o
-                0x00003a54                Cpu_OnNMIINT
- .text.printf   0x00003a5c       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
-                0x00003a5c                printf
- .text.puts     0x00003a84       0x54 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
-                0x00003a84                puts
- .text.exit     0x00003ad8       0x38 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
-                0x00003ad8                exit
- .text.memset   0x00003b10        0xc F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
-                0x00003b10                memset
+                0x00003c84        0x8 ./Sources/Events.o
+                0x00003c84                Cpu_OnNMIINT
+ .text.printf   0x00003c8c       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
+                0x00003c8c                printf
+ .text.puts     0x00003cb4       0x54 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
+                0x00003cb4                puts
+ .text.__FileRead
+                0x00003d08       0x4e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+                0x00003d08                __FileRead
+ *fill*         0x00003d56        0x2 00
+ .text.scanf    0x00003d58       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+                0x00003d58                scanf
+ .text.__ungetc
+                0x00003d80       0x36 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+                0x00003d80                __ungetc
+ *fill*         0x00003db6        0x2 00
+ .text.exit     0x00003db8       0x38 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+                0x00003db8                exit
+ .text.memset   0x00003df0        0xc F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+                0x00003df0                memset
  .text.long2str.isra.0
-                0x00003b1c      0x19c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+                0x00003dfc      0x19c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
  .text.longlong2str.isra.1
-                0x00003cb8      0x1c8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+                0x00003f98      0x1c8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
  .text.__pformatterFPLL
-                0x00003e80      0x8d0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
-                0x00003e80                __pformatterFPLL
+                0x00004160      0x8d0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+                0x00004160                __pformatterFPLL
  .text.__sformatter_FP
-                0x00004750      0x740 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
-                0x00004750                __sformatter_FP
- .text.isalpha  0x00004e90       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
-                0x00004e90                isalpha
- .text.isspace  0x00004eb0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
-                0x00004eb0                isspace
- .text.isupper  0x00004ed0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
-                0x00004ed0                isupper
+                0x00004a30      0x740 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
+                0x00004a30                __sformatter_FP
+ .text.isalpha  0x00005170       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x00005170                isalpha
+ .text.isspace  0x00005190       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x00005190                isspace
+ .text.isupper  0x000051b0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x000051b0                isupper
  .text.isxdigit
-                0x00004ef0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
-                0x00004ef0                isxdigit
- .text.toupper  0x00004f10        0xe F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
-                0x00004f10                toupper
+                0x000051d0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x000051d0                isxdigit
+ .text.toupper  0x000051f0        0xe F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x000051f0                toupper
+ .text.__get_char
+                0x000051fe       0x82 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
+                0x000051fe                __get_char
  .text.__put_char
-                0x00004f1e       0x90 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
-                0x00004f1e                __put_char
- *fill*         0x00004fae        0x2 00
+                0x00005280       0x90 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
+                0x00005280                __put_char
  .text.__strtold
-                0x00004fb0      0x6d0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
-                0x00004fb0                __strtold
+                0x00005310      0x6d0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
+                0x00005310                __strtold
  .text.__fwrite
-                0x00005680      0x160 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
-                0x00005680                __fwrite
+                0x000059e0      0x160 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
+                0x000059e0                __fwrite
  .text.__FileWrite
-                0x000057e0       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
-                0x000057e0                __FileWrite
+                0x00005b40       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
+                0x00005b40                __FileWrite
  .text.__strtoul
-                0x000057fc      0x1ce F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
-                0x000057fc                __strtoul
+                0x00005b5c      0x1ce F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+                0x00005b5c                __strtoul
  .text.__fill_mem
-                0x000059ca       0x7e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
-                0x000059ca                __fill_mem
+                0x00005d2a       0x7e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+                0x00005d2a                __fill_mem
  .text.__memrchr
-                0x00005a48       0x1e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
-                0x00005a48                __memrchr
- .text.memchr   0x00005a66       0x1a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
-                0x00005a66                memchr
- .text.memcpy   0x00005a80       0x12 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
-                0x00005a80                memcpy
- .text.strchr   0x00005a92       0x1e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
-                0x00005a92                strchr
- .text.strcpy   0x00005ab0       0x10 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
-                0x00005ab0                strcpy
- .text.strlen   0x00005ac0       0x10 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
-                0x00005ac0                strlen
+                0x00005da8       0x1e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
+                0x00005da8                __memrchr
+ .text.memchr   0x00005dc6       0x1a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+                0x00005dc6                memchr
+ .text.memcpy   0x00005de0       0x12 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+                0x00005de0                memcpy
+ .text.strchr   0x00005df2       0x1e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+                0x00005df2                strchr
+ .text.strcpy   0x00005e10       0x10 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
+                0x00005e10                strcpy
+ .text.strlen   0x00005e20       0x10 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+                0x00005e20                strlen
  .text.__prep_buffer
-                0x00005ad0       0x14 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
-                0x00005ad0                __prep_buffer
+                0x00005e30       0x14 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+                0x00005e30                __prep_buffer
+ .text.__load_buffer
+                0x00005e44       0x44 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+                0x00005e44                __load_buffer
  .text.__flush_buffer
-                0x00005ae4       0x38 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
-                0x00005ae4                __flush_buffer
- *fill*         0x00005b1c        0x4 00
+                0x00005e88       0x38 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+                0x00005e88                __flush_buffer
  .text.__num2dec
-                0x00005b20      0x250 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
-                0x00005b20                __num2dec
+                0x00005ec0      0x250 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+                0x00005ec0                __num2dec
  .text.__dec2num
-                0x00005d70      0x168 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
-                0x00005d70                __dec2num
+                0x00006110      0x168 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+                0x00006110                __dec2num
  .text.__round_decimal
-                0x00005ed8       0x98 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
-                0x00005ed8                __round_decimal
+                0x00006278       0x98 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+                0x00006278                __round_decimal
  .text.__signbitd
-                0x00005f70        0x4 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
-                0x00005f70                __signbitd
+                0x00006310        0x4 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
+                0x00006310                __signbitd
  .text.__fpclassifyd
-                0x00005f74       0x38 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
-                0x00005f74                __fpclassifyd
- *fill*         0x00005fac        0x4 00
- .text.frexp    0x00005fb0       0x80 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
-                0x00005fb0                frexp
- .text.pow      0x00006030        0x8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
-                0x00006030                pow
+                0x00006314       0x38 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
+                0x00006314                __fpclassifyd
+ *fill*         0x0000634c        0x4 00
+ .text.frexp    0x00006350       0x80 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
+                0x00006350                frexp
+ .text.pow      0x000063d0        0x8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
+                0x000063d0                pow
  .text.__ieee754_pow
-                0x00006038      0xb70 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
-                0x00006038                __ieee754_pow
- .text.scalbn   0x00006ba8       0x14 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
-                0x00006ba8                scalbn
- .text.sqrt     0x00006bbc        0x8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
-                0x00006bbc                sqrt
+                0x000063d8      0xb70 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+                0x000063d8                __ieee754_pow
+ .text.scalbn   0x00006f48       0x14 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
+                0x00006f48                scalbn
+ .text.sqrt     0x00006f5c        0x8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
+                0x00006f5c                sqrt
  .text.__ieee754_sqrt
-                0x00006bc4      0x17c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
-                0x00006bc4                __ieee754_sqrt
- .text.ldexp    0x00006d40      0x148 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
-                0x00006d40                ldexp
+                0x00006f64      0x17c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
+                0x00006f64                __ieee754_sqrt
+ .text.ldexp    0x000070e0      0x148 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
+                0x000070e0                ldexp
  .text.__init_cpp
-                0x00006e88       0x48 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
-                0x00006e88                __init_cpp
+                0x00007228       0x48 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00007228                __init_cpp
  .text.__fini_cpp
-                0x00006ed0       0x34 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
-                0x00006ed0                __fini_cpp
+                0x00007270       0x34 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00007270                __fini_cpp
  .text.__copy_rom_section
-                0x00006f04       0x48 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
-                0x00006f04                __copy_rom_section
+                0x000072a4       0x48 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                0x000072a4                __copy_rom_section
  .text.__copy_rom_sections_to_ram
-                0x00006f4c       0x34 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
-                0x00006f4c                __copy_rom_sections_to_ram
+                0x000072ec       0x34 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                0x000072ec                __copy_rom_sections_to_ram
  .text.__destroy_global_chain
-                0x00006f80       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
-                0x00006f80                __destroy_global_chain
+                0x00007320       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x00007320                __destroy_global_chain
  .text.__init_registers
-                0x00006f9c       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
-                0x00006f9c                __init_registers
+                0x0000733c       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x0000733c                __init_registers
  .text.__init_user
-                0x00006fb8        0x4 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
-                0x00006fb8                __init_user
+                0x00007358        0x4 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x00007358                __init_user
  *(.rodata)
- .rodata        0x00006fbc      0x200 ./Sources/main.o
- .rodata        0x000071bc       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
- .rodata        0x000071dc       0x40 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(divdf3.o)
- .rodata        0x0000721c       0x40 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(muldf3.o)
+ .rodata        0x0000735c      0x320 ./Sources/main.o
+ .rodata        0x0000767c       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
+ .rodata        0x0000769c       0x40 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(divdf3.o)
+ .rodata        0x000076dc       0x40 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(muldf3.o)
  *(.rodata*)
  .rodata.str1.1
-                0x0000725c       0x14 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+                0x0000771c       0x14 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
                                  0x25 (size before relaxing)
  .rodata.__aeabi_ctype_table_C
-                0x00007270      0x101 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
-                0x00007270                __aeabi_ctype_table_C
- *fill*         0x00007371        0x7 00
+                0x00007730      0x101 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x00007730                __aeabi_ctype_table_C
+ *fill*         0x00007831        0x7 00
  .rodata.digit_values
-                0x00007378       0x40 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+                0x00007838       0x40 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
  .rodata.bit_values
-                0x000073b8       0x48 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
- .rodata.dp_h   0x00007400       0x10 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
- .rodata.dp_l   0x00007410       0x10 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
- .rodata.bp     0x00007420       0x10 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+                0x00007878       0x48 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+ .rodata.dp_h   0x000078c0       0x10 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+ .rodata.dp_l   0x000078d0       0x10 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+ .rodata.bp     0x000078e0       0x10 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
@@ -915,65 +943,65 @@ END GROUP
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x00007430                . = ALIGN (0x4)
-                0x00007430                _etext = .
+                0x000078f0                . = ALIGN (0x4)
+                0x000078f0                _etext = .
 
-.vfp11_veneer   0x00007430        0x0
+.vfp11_veneer   0x000078f0        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00007430        0x0
+.v4_bx          0x000078f0        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00007430        0x0
+.iplt           0x000078f0        0x0
  .iplt          0x00000000        0x0 ./Generated_Code/WAIT1.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00007430        0x8
-                0x00007430                __exidx_start = .
+.ARM            0x000078f0        0x8
+                0x000078f0                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x00007430        0x8 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divdi3.o)
- .ARM.exidx     0x00007438        0x0 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x000078f0        0x8 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x000078f8        0x0 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x00007438                __exidx_end = .
+                0x000078f8                __exidx_end = .
 
-.rel.dyn        0x00007438        0x0
+.rel.dyn        0x000078f8        0x0
  .rel.iplt      0x00000000        0x0 ./Generated_Code/WAIT1.o
 
-.ctors          0x00007438        0x0
-                0x00007438                __CTOR_LIST__ = .
+.ctors          0x000078f8        0x0
+                0x000078f8                __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x00007438                __CTOR_END__ = .
+                0x000078f8                __CTOR_END__ = .
 
-.dtors          0x00007438        0x0
-                0x00007438                __DTOR_LIST__ = .
+.dtors          0x000078f8        0x0
+                0x000078f8                __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x00007438                __DTOR_END__ = .
+                0x000078f8                __DTOR_END__ = .
 
-.preinit_array  0x00007438        0x0
-                0x00007438                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x000078f8        0x0
+                0x000078f8                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x00007438                PROVIDE (__preinit_array_end, .)
+                0x000078f8                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x00007438        0x0
-                0x00007438                PROVIDE (__init_array_start, .)
+.init_array     0x000078f8        0x0
+                0x000078f8                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
-                0x00007438                PROVIDE (__init_array_end, .)
+                0x000078f8                PROVIDE (__init_array_end, .)
 
-.fini_array     0x00007438        0x0
-                0x00007438                PROVIDE (__fini_array_start, .)
+.fini_array     0x000078f8        0x0
+                0x000078f8                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
-                0x00007438                PROVIDE (__fini_array_end, .)
-                0x00007438                ___ROM_AT = .
+                0x000078f8                PROVIDE (__fini_array_end, .)
+                0x000078f8                ___ROM_AT = .
 
 .mtb            0x1ffff000        0x0
                 0x1ffff000                . = ALIGN (0x8)
@@ -982,7 +1010,7 @@ END GROUP
                 0x1ffff000                . = ALIGN (0x8)
                 0x1ffff000                _mtb_end = .
 
-.data           0x1ffff000       0xe8 load address 0x00007438
+.data           0x1ffff000       0xe8 load address 0x000078f8
                 0x1ffff000                . = ALIGN (0x4)
                 0x1ffff000                _sdata = .
  *(.data)
@@ -1005,11 +1033,11 @@ END GROUP
                 0x1ffff0e8                _edata = .
                 0x000000e8                ___data_size = (_edata - _sdata)
 
-.igot.plt       0x1ffff0e8        0x0 load address 0x00007520
+.igot.plt       0x1ffff0e8        0x0 load address 0x000079e0
  .igot.plt      0x00000000        0x0 ./Generated_Code/WAIT1.o
                 0x1ffff0e8                . = ALIGN (0x4)
 
-.bss            0x1ffff0e8      0x124 load address 0x00007520
+.bss            0x1ffff0e8      0x124 load address 0x000079e0
                 0x1ffff0e8                __START_BSS = .
                 0x1ffff0e8                PROVIDE (__bss_start__, __START_BSS)
  *(.bss)
@@ -1050,11 +1078,11 @@ END GROUP
                 0x1ffff20c                . = ALIGN (0x4)
                 0x1ffff20c                __END_BSS = .
                 0x1ffff20c                PROVIDE (__bss_end__, __END_BSS)
-                0x00007520                _romp_at = (___ROM_AT + SIZEOF (.data))
+                0x000079e0                _romp_at = (___ROM_AT + SIZEOF (.data))
 
-.romp           0x1ffff20c       0x18 load address 0x00007520
-                0x00007520                __S_romp = _romp_at
-                0x1ffff20c        0x4 LONG 0x7438 ___ROM_AT
+.romp           0x1ffff20c       0x18 load address 0x000079e0
+                0x000079e0                __S_romp = _romp_at
+                0x1ffff20c        0x4 LONG 0x78f8 ___ROM_AT
                 0x1ffff210        0x4 LONG 0x1ffff000 _sdata
                 0x1ffff214        0x4 LONG 0xe8 ___data_size
                 0x1ffff218        0x4 LONG 0x0
@@ -1062,7 +1090,7 @@ END GROUP
                 0x1ffff220        0x4 LONG 0x0
 
 ._user_heap_stack
-                0x1ffff224      0x400 load address 0x00007538
+                0x1ffff224      0x400 load address 0x000079f8
                 0x1ffff224                . = ALIGN (0x4)
                 0x1ffff224                PROVIDE (end, .)
                 0x1ffff224                PROVIDE (_end, .)
@@ -1110,120 +1138,126 @@ END GROUP
  .ARM.attributes
                 0x00000310       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
  .ARM.attributes
-                0x00000341       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+                0x00000341       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
  .ARM.attributes
-                0x00000372       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+                0x00000372       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
  .ARM.attributes
-                0x000003a3       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+                0x000003a3       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
  .ARM.attributes
-                0x000003d4       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
+                0x000003d4       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
  .ARM.attributes
-                0x00000405       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x00000405       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
  .ARM.attributes
-                0x00000436       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
+                0x00000436       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
  .ARM.attributes
-                0x00000467       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
+                0x00000467       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
  .ARM.attributes
-                0x00000498       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
+                0x00000498       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
  .ARM.attributes
-                0x000004c9       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
+                0x000004c9       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
  .ARM.attributes
-                0x000004fa       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+                0x000004fa       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
  .ARM.attributes
-                0x0000052b       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+                0x0000052b       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
  .ARM.attributes
-                0x0000055c       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
+                0x0000055c       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
  .ARM.attributes
-                0x0000058d       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+                0x0000058d       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
  .ARM.attributes
-                0x000005be       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+                0x000005be       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
  .ARM.attributes
-                0x000005ef       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+                0x000005ef       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
  .ARM.attributes
-                0x00000620       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
+                0x00000620       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
  .ARM.attributes
-                0x00000651       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+                0x00000651       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
  .ARM.attributes
-                0x00000682       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
+                0x00000682       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
  .ARM.attributes
-                0x000006b3       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+                0x000006b3       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
  .ARM.attributes
-                0x000006e4       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+                0x000006e4       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
  .ARM.attributes
-                0x00000715       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
+                0x00000715       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
  .ARM.attributes
-                0x00000746       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
+                0x00000746       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
  .ARM.attributes
-                0x00000777       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
+                0x00000777       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
  .ARM.attributes
-                0x000007a8       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
+                0x000007a8       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
  .ARM.attributes
-                0x000007d9       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+                0x000007d9       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
  .ARM.attributes
-                0x0000080a       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
+                0x0000080a       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
  .ARM.attributes
-                0x0000083b       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
+                0x0000083b       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
  .ARM.attributes
-                0x0000086c       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
+                0x0000086c       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
  .ARM.attributes
-                0x0000089d       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
+                0x0000089d       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
  .ARM.attributes
-                0x000008ce       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_sqi.o)
+                0x000008ce       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
  .ARM.attributes
-                0x000008ec       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+                0x000008ff       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
  .ARM.attributes
-                0x0000090a       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_shi.o)
+                0x00000930       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
  .ARM.attributes
-                0x00000928       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x00000961       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_sqi.o)
  .ARM.attributes
-                0x00000946       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+                0x0000097f       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
  .ARM.attributes
-                0x00000964       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x0000099d       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_shi.o)
  .ARM.attributes
-                0x00000982       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
+                0x000009bb       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x000009a0       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_aeabi_uldivmod.o)
+                0x000009d9       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
  .ARM.attributes
-                0x000009be       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(bpabi.o)
+                0x000009f7       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000009ea       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(adddf3.o)
+                0x00000a15       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000a16       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(divdf3.o)
+                0x00000a33       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000a42       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(eqdf2.o)
+                0x00000a51       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(bpabi.o)
  .ARM.attributes
-                0x00000a6e       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(gedf2.o)
+                0x00000a7d       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(adddf3.o)
  .ARM.attributes
-                0x00000a9a       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(ledf2.o)
+                0x00000aa9       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(divdf3.o)
  .ARM.attributes
-                0x00000ac6       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(muldf3.o)
+                0x00000ad5       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(eqdf2.o)
  .ARM.attributes
-                0x00000af2       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(subdf3.o)
+                0x00000b01       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(gedf2.o)
  .ARM.attributes
-                0x00000b1e       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(fixdfsi.o)
+                0x00000b2d       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(ledf2.o)
  .ARM.attributes
-                0x00000b4a       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(floatsidf.o)
+                0x00000b59       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(muldf3.o)
  .ARM.attributes
-                0x00000b76       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(extendsfdf2.o)
+                0x00000b85       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(subdf3.o)
  .ARM.attributes
-                0x00000ba2       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(truncdfsf2.o)
+                0x00000bb1       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(fixdfsi.o)
  .ARM.attributes
-                0x00000bce       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_clzsi2.o)
+                0x00000bdd       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(floatsidf.o)
  .ARM.attributes
-                0x00000bec       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_muldi3.o)
+                0x00000c09       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(extendsfdf2.o)
  .ARM.attributes
-                0x00000c18       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divdi3.o)
+                0x00000c35       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(truncdfsf2.o)
  .ARM.attributes
-                0x00000c44       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivdi3.o)
+                0x00000c61       0x1e f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_clzsi2.o)
  .ARM.attributes
-                0x00000c70       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00000c7f       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_muldi3.o)
  .ARM.attributes
-                0x00000ca1       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                0x00000cab       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divdi3.o)
  .ARM.attributes
-                0x00000cd2       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x00000cd7       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x00000d03       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .ARM.attributes
+                0x00000d34       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .ARM.attributes
+                0x00000d65       0x31 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 OUTPUT(EnergyHarvesting.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x86f3
+.debug_info     0x00000000     0x943c
  .debug_info    0x00000000      0x117 ./Generated_Code/WAIT1.o
  .debug_info    0x00000117      0x10b ./Generated_Code/Vectors.o
  .debug_info    0x00000222      0x399 ./Generated_Code/SCL.o
@@ -1237,44 +1271,47 @@ OUTPUT(EnergyHarvesting.elf elf32-littlearm)
  .debug_info    0x0000236a      0x399 ./Generated_Code/CS.o
  .debug_info    0x00002703      0x12a ./Project_Settings/Startup_Code/__arm_start.o
  .debug_info    0x0000282d       0x54 ./Project_Settings/Startup_Code/__arm_end.o
- .debug_info    0x00002881      0x15f ./Sources/main.o
- .debug_info    0x000029e0       0x92 ./Sources/Events.o
- .debug_info    0x00002a72      0x399 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
- .debug_info    0x00002e0b      0x38a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
- .debug_info    0x00003195       0xe8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
- .debug_info    0x0000327d       0xec F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
- .debug_info    0x00003369      0x882 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
- .debug_info    0x00003beb      0x5c9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
- .debug_info    0x000041b4      0x313 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
- .debug_info    0x000044c7      0x3fa F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
- .debug_info    0x000048c1      0x771 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
- .debug_info    0x00005032      0x4be F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
- .debug_info    0x000054f0      0x60d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
- .debug_info    0x00005afd      0x1d6 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
- .debug_info    0x00005cd3      0x137 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
- .debug_info    0x00005e0a      0x116 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
- .debug_info    0x00005f20      0x121 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
- .debug_info    0x00006041      0x10f F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
- .debug_info    0x00006150      0x10b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
- .debug_info    0x0000625b      0x109 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
- .debug_info    0x00006364       0xea F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
- .debug_info    0x0000644e       0x9d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
- .debug_info    0x000064eb      0x45d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
- .debug_info    0x00006948      0x51c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
- .debug_info    0x00006e64      0x1e4 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
- .debug_info    0x00007048      0x305 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
- .debug_info    0x0000734d      0x1a1 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
- .debug_info    0x000074ee       0xc0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
- .debug_info    0x000075ae      0x5c7 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
- .debug_info    0x00007b75       0xf9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
- .debug_info    0x00007c6e       0xb3 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
- .debug_info    0x00007d21      0x266 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
- .debug_info    0x00007f87      0x1e2 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
- .debug_info    0x00008169      0x136 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
- .debug_info    0x0000829f      0x19b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
- .debug_info    0x0000843a      0x2b9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_info    0x00002881      0x1b1 ./Sources/main.o
+ .debug_info    0x00002a32       0x92 ./Sources/Events.o
+ .debug_info    0x00002ac4      0x399 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
+ .debug_info    0x00002e5d      0x38a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
+ .debug_info    0x000031e7      0x474 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+ .debug_info    0x0000365b      0x448 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+ .debug_info    0x00003aa3       0xe8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_info    0x00003b8b       0xec F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_info    0x00003c77      0x882 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+ .debug_info    0x000044f9      0x5c9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
+ .debug_info    0x00004ac2      0x313 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_info    0x00004dd5      0x43b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
+ .debug_info    0x00005210      0x3fa F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
+ .debug_info    0x0000560a      0x771 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
+ .debug_info    0x00005d7b      0x4be F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
+ .debug_info    0x00006239      0x60d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
+ .debug_info    0x00006846      0x1d6 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_info    0x00006a1c      0x137 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_info    0x00006b53      0x116 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
+ .debug_info    0x00006c69      0x121 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_info    0x00006d8a      0x10f F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_info    0x00006e99      0x10b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_info    0x00006fa4      0x109 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
+ .debug_info    0x000070ad       0xea F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_info    0x00007197       0x9d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
+ .debug_info    0x00007234      0x45d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+ .debug_info    0x00007691      0x51c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+ .debug_info    0x00007bad      0x1e4 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
+ .debug_info    0x00007d91      0x305 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
+ .debug_info    0x00008096      0x1a1 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
+ .debug_info    0x00008237       0xc0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
+ .debug_info    0x000082f7      0x5c7 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+ .debug_info    0x000088be       0xf9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
+ .debug_info    0x000089b7       0xb3 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
+ .debug_info    0x00008a6a      0x266 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
+ .debug_info    0x00008cd0      0x1e2 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
+ .debug_info    0x00008eb2      0x136 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_info    0x00008fe8      0x19b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_info    0x00009183      0x2b9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
-.debug_abbrev   0x00000000     0x2b61
+.debug_abbrev   0x00000000     0x2f54
  .debug_abbrev  0x00000000       0xaa ./Generated_Code/WAIT1.o
  .debug_abbrev  0x000000aa       0xa3 ./Generated_Code/Vectors.o
  .debug_abbrev  0x0000014d      0x12b ./Generated_Code/SCL.o
@@ -1288,44 +1325,47 @@ OUTPUT(EnergyHarvesting.elf elf32-littlearm)
  .debug_abbrev  0x00000a34      0x12b ./Generated_Code/CS.o
  .debug_abbrev  0x00000b5f       0x92 ./Project_Settings/Startup_Code/__arm_start.o
  .debug_abbrev  0x00000bf1       0x4c ./Project_Settings/Startup_Code/__arm_end.o
- .debug_abbrev  0x00000c3d       0xb9 ./Sources/main.o
- .debug_abbrev  0x00000cf6       0x3d ./Sources/Events.o
- .debug_abbrev  0x00000d33      0x107 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
- .debug_abbrev  0x00000e3a      0x10a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
- .debug_abbrev  0x00000f44       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
- .debug_abbrev  0x00000fbe       0x62 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
- .debug_abbrev  0x00001020      0x259 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
- .debug_abbrev  0x00001279      0x206 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
- .debug_abbrev  0x0000147f       0x9e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
- .debug_abbrev  0x0000151d       0xf8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
- .debug_abbrev  0x00001615      0x1b3 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
- .debug_abbrev  0x000017c8      0x107 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
- .debug_abbrev  0x000018cf      0x16a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
- .debug_abbrev  0x00001a39       0xc2 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
- .debug_abbrev  0x00001afb       0x78 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
- .debug_abbrev  0x00001b73       0x95 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
- .debug_abbrev  0x00001c08       0x95 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
- .debug_abbrev  0x00001c9d       0x95 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
- .debug_abbrev  0x00001d32       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
- .debug_abbrev  0x00001dac       0x78 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
- .debug_abbrev  0x00001e24       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
- .debug_abbrev  0x00001e9e       0x44 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
- .debug_abbrev  0x00001ee2      0x142 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
- .debug_abbrev  0x00002024      0x15d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
- .debug_abbrev  0x00002181       0x56 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
- .debug_abbrev  0x000021d7       0xe8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
- .debug_abbrev  0x000022bf       0xce F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
- .debug_abbrev  0x0000238d       0x59 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
- .debug_abbrev  0x000023e6      0x157 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
- .debug_abbrev  0x0000253d       0x86 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
- .debug_abbrev  0x000025c3       0x59 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
- .debug_abbrev  0x0000261c      0x10b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
- .debug_abbrev  0x00002727       0xce F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
- .debug_abbrev  0x000027f5       0x99 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
- .debug_abbrev  0x0000288e      0x120 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
- .debug_abbrev  0x000029ae      0x1b3 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_abbrev  0x00000c3d       0xc6 ./Sources/main.o
+ .debug_abbrev  0x00000d03       0x3d ./Sources/Events.o
+ .debug_abbrev  0x00000d40      0x107 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
+ .debug_abbrev  0x00000e47      0x10a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
+ .debug_abbrev  0x00000f51      0x19e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+ .debug_abbrev  0x000010ef      0x152 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+ .debug_abbrev  0x00001241       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_abbrev  0x000012bb       0x62 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_abbrev  0x0000131d      0x259 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+ .debug_abbrev  0x00001576      0x206 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
+ .debug_abbrev  0x0000177c       0x9e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_abbrev  0x0000181a       0xf6 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
+ .debug_abbrev  0x00001910       0xf8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
+ .debug_abbrev  0x00001a08      0x1b3 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
+ .debug_abbrev  0x00001bbb      0x107 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
+ .debug_abbrev  0x00001cc2      0x16a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
+ .debug_abbrev  0x00001e2c       0xc2 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_abbrev  0x00001eee       0x78 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_abbrev  0x00001f66       0x95 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
+ .debug_abbrev  0x00001ffb       0x95 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_abbrev  0x00002090       0x95 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_abbrev  0x00002125       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_abbrev  0x0000219f       0x78 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
+ .debug_abbrev  0x00002217       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_abbrev  0x00002291       0x44 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
+ .debug_abbrev  0x000022d5      0x142 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+ .debug_abbrev  0x00002417      0x15d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+ .debug_abbrev  0x00002574       0x56 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
+ .debug_abbrev  0x000025ca       0xe8 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
+ .debug_abbrev  0x000026b2       0xce F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
+ .debug_abbrev  0x00002780       0x59 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
+ .debug_abbrev  0x000027d9      0x157 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+ .debug_abbrev  0x00002930       0x86 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
+ .debug_abbrev  0x000029b6       0x59 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
+ .debug_abbrev  0x00002a0f      0x10b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
+ .debug_abbrev  0x00002b1a       0xce F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
+ .debug_abbrev  0x00002be8       0x99 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_abbrev  0x00002c81      0x120 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_abbrev  0x00002da1      0x1b3 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
-.debug_loc      0x00000000     0x5edb
+.debug_loc      0x00000000     0x612f
  .debug_loc     0x00000000       0xd4 ./Generated_Code/WAIT1.o
  .debug_loc     0x000000d4      0x118 ./Generated_Code/SCL.o
  .debug_loc     0x000001ec       0x9c ./Generated_Code/PE_LDD.o
@@ -1338,42 +1378,45 @@ OUTPUT(EnergyHarvesting.elf elf32-littlearm)
  .debug_loc     0x00000760      0x118 ./Generated_Code/CS.o
  .debug_loc     0x00000878       0x2c ./Project_Settings/Startup_Code/__arm_start.o
  .debug_loc     0x000008a4       0x38 ./Project_Settings/Startup_Code/__arm_end.o
- .debug_loc     0x000008dc       0x9c ./Sources/main.o
- .debug_loc     0x00000978       0x2c ./Sources/Events.o
- .debug_loc     0x000009a4       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
- .debug_loc     0x000009d0       0x72 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
- .debug_loc     0x00000a42       0x3e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
- .debug_loc     0x00000a80       0x6f F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
- .debug_loc     0x00000aef     0x17d2 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
- .debug_loc     0x000022c1      0xa49 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
- .debug_loc     0x00002d0a      0x30d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
- .debug_loc     0x00003017       0x87 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
- .debug_loc     0x0000309e      0x910 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
- .debug_loc     0x000039ae       0x8c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
- .debug_loc     0x00003a3a      0x2c2 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
- .debug_loc     0x00003cfc      0x305 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
- .debug_loc     0x00004001      0x14a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
- .debug_loc     0x0000414b       0x77 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
- .debug_loc     0x000041c2       0x77 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
- .debug_loc     0x00004239       0x59 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
- .debug_loc     0x00004292       0xaf F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
- .debug_loc     0x00004341       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
- .debug_loc     0x00004361       0x33 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
- .debug_loc     0x00004394      0x126 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
- .debug_loc     0x000044ba      0x599 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
- .debug_loc     0x00004a53      0x2d7 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
- .debug_loc     0x00004d2a       0xc1 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
- .debug_loc     0x00004deb       0x50 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
- .debug_loc     0x00004e3b      0x962 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
- .debug_loc     0x0000579d       0x6e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
- .debug_loc     0x0000580b       0x38 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
- .debug_loc     0x00005843      0x220 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
- .debug_loc     0x00005a63      0x16b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
- .debug_loc     0x00005bce       0x9d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
- .debug_loc     0x00005c6b       0xd9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
- .debug_loc     0x00005d44      0x197 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_loc     0x000008dc       0xa8 ./Sources/main.o
+ .debug_loc     0x00000984       0x2c ./Sources/Events.o
+ .debug_loc     0x000009b0       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
+ .debug_loc     0x000009dc       0x72 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
+ .debug_loc     0x00000a4e      0x106 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+ .debug_loc     0x00000b54       0xbb F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+ .debug_loc     0x00000c0f       0x3e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_loc     0x00000c4d       0x6f F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_loc     0x00000cbc     0x17d2 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+ .debug_loc     0x0000248e      0xa49 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
+ .debug_loc     0x00002ed7      0x30d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_loc     0x000031e4       0x87 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
+ .debug_loc     0x0000326b       0x87 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
+ .debug_loc     0x000032f2      0x910 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
+ .debug_loc     0x00003c02       0x8c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
+ .debug_loc     0x00003c8e      0x2c2 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
+ .debug_loc     0x00003f50      0x305 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_loc     0x00004255      0x14a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_loc     0x0000439f       0x77 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
+ .debug_loc     0x00004416       0x77 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_loc     0x0000448d       0x59 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_loc     0x000044e6       0xaf F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_loc     0x00004595       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
+ .debug_loc     0x000045b5       0x33 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_loc     0x000045e8      0x126 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+ .debug_loc     0x0000470e      0x599 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+ .debug_loc     0x00004ca7      0x2d7 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
+ .debug_loc     0x00004f7e       0xc1 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
+ .debug_loc     0x0000503f       0x50 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
+ .debug_loc     0x0000508f      0x962 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+ .debug_loc     0x000059f1       0x6e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
+ .debug_loc     0x00005a5f       0x38 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
+ .debug_loc     0x00005a97      0x220 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
+ .debug_loc     0x00005cb7      0x16b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
+ .debug_loc     0x00005e22       0x9d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_loc     0x00005ebf       0xd9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_loc     0x00005f98      0x197 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
-.debug_aranges  0x00000000      0x870
+.debug_aranges  0x00000000      0x8e0
  .debug_aranges
                 0x00000000       0x38 ./Generated_Code/WAIT1.o
  .debug_aranges
@@ -1409,69 +1452,75 @@ OUTPUT(EnergyHarvesting.elf elf32-littlearm)
  .debug_aranges
                 0x00000308       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
  .debug_aranges
-                0x00000328       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+                0x00000328       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
  .debug_aranges
-                0x00000348       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+                0x00000350       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
  .debug_aranges
-                0x00000368       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+                0x00000378       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
  .debug_aranges
-                0x00000398       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
+                0x00000398       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
  .debug_aranges
-                0x000003b8       0x88 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x000003b8       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
  .debug_aranges
-                0x00000440       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
+                0x000003e8       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
  .debug_aranges
-                0x00000460       0x38 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
+                0x00000408       0x88 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
  .debug_aranges
-                0x00000498       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
+                0x00000490       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
  .debug_aranges
-                0x000004c0       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
+                0x000004b0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
  .debug_aranges
-                0x000004f0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+                0x000004d0       0x38 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
  .debug_aranges
-                0x00000510       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+                0x00000508       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
  .debug_aranges
-                0x00000530       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
+                0x00000530       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
  .debug_aranges
-                0x00000550       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+                0x00000560       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
  .debug_aranges
-                0x00000570       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+                0x00000580       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
  .debug_aranges
-                0x00000590       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+                0x000005a0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
  .debug_aranges
-                0x000005b0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
+                0x000005c0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
  .debug_aranges
-                0x000005d0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+                0x000005e0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
  .debug_aranges
-                0x000005f0       0x18 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
+                0x00000600       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
  .debug_aranges
-                0x00000608       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+                0x00000620       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
  .debug_aranges
-                0x00000638       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+                0x00000640       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
  .debug_aranges
-                0x00000668       0x18 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
+                0x00000660       0x18 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
  .debug_aranges
-                0x00000680       0x60 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
+                0x00000678       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
  .debug_aranges
-                0x000006e0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
+                0x000006a8       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
  .debug_aranges
-                0x00000700       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
+                0x000006d8       0x18 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
  .debug_aranges
-                0x00000720       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+                0x000006f0       0x60 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
  .debug_aranges
-                0x00000740       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
+                0x00000750       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
  .debug_aranges
-                0x00000760       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
+                0x00000770       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
  .debug_aranges
-                0x00000780       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
+                0x00000790       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
  .debug_aranges
-                0x000007a0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
+                0x000007b0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
  .debug_aranges
-                0x000007c0       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x000007d0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
  .debug_aranges
-                0x000007e8       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                0x000007f0       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
  .debug_aranges
-                0x00000818       0x58 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x00000810       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
+ .debug_aranges
+                0x00000830       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_aranges
+                0x00000858       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_aranges
+                0x00000888       0x58 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
 .debug_macinfo  0x00000000   0x269fda
  .debug_macinfo
@@ -1505,155 +1554,164 @@ OUTPUT(EnergyHarvesting.elf elf32-littlearm)
  .debug_macinfo
                 0x0023a422    0x2fbb8 ./Sources/Events.o
 
-.debug_line     0x00000000     0x5a5f
- .debug_line    0x00000000      0x2ac ./Generated_Code/WAIT1.o
- .debug_line    0x000002ac      0x506 ./Generated_Code/Vectors.o
- .debug_line    0x000007b2      0x331 ./Generated_Code/SCL.o
- .debug_line    0x00000ae3      0x412 ./Generated_Code/PE_LDD.o
- .debug_line    0x00000ef5      0x333 ./Generated_Code/MOSI.o
- .debug_line    0x00001228      0x2fa ./Generated_Code/MISO.o
- .debug_line    0x00001522      0x331 ./Generated_Code/LED.o
- .debug_line    0x00001853      0x344 ./Generated_Code/IO1.o
- .debug_line    0x00001b97      0x3ac ./Generated_Code/CsIO1.o
- .debug_line    0x00001f43      0x56c ./Generated_Code/Cpu.o
- .debug_line    0x000024af      0x32f ./Generated_Code/CS.o
- .debug_line    0x000027de      0x2ef ./Project_Settings/Startup_Code/__arm_start.o
- .debug_line    0x00002acd      0x2ca ./Project_Settings/Startup_Code/__arm_end.o
- .debug_line    0x00002d97      0x4da ./Sources/main.o
- .debug_line    0x00003271      0x436 ./Sources/Events.o
- .debug_line    0x000036a7       0xb0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
- .debug_line    0x00003757       0x9a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
- .debug_line    0x000037f1       0x8d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
- .debug_line    0x0000387e       0x90 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
- .debug_line    0x0000390e      0x456 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
- .debug_line    0x00003d64      0x2e3 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
- .debug_line    0x00004047      0x1be F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
- .debug_line    0x00004205       0xc2 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
- .debug_line    0x000042c7      0x30a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
- .debug_line    0x000045d1       0xc0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
- .debug_line    0x00004691      0x158 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
- .debug_line    0x000047e9      0x11e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
- .debug_line    0x00004907       0xf6 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
- .debug_line    0x000049fd       0x99 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
- .debug_line    0x00004a96       0x9f F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
- .debug_line    0x00004b35       0x8b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
- .debug_line    0x00004bc0       0x7d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
- .debug_line    0x00004c3d       0x7d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
- .debug_line    0x00004cba       0x85 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
- .debug_line    0x00004d3f       0x4d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
- .debug_line    0x00004d8c       0xf0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
- .debug_line    0x00004e7c      0x1d9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
- .debug_line    0x00005055       0x60 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
- .debug_line    0x000050b5      0x173 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
- .debug_line    0x00005228       0xb9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
- .debug_line    0x000052e1       0x73 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
- .debug_line    0x00005354      0x1f9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
- .debug_line    0x0000554d       0x77 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
- .debug_line    0x000055c4       0x74 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
- .debug_line    0x00005638      0x121 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
- .debug_line    0x00005759       0xc6 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
- .debug_line    0x0000581f       0x6c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
- .debug_line    0x0000588b       0xbd F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
- .debug_line    0x00005948      0x117 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+.debug_line     0x00000000     0x581e
+ .debug_line    0x00000000      0x282 ./Generated_Code/WAIT1.o
+ .debug_line    0x00000282      0x45e ./Generated_Code/Vectors.o
+ .debug_line    0x000006e0      0x2dd ./Generated_Code/SCL.o
+ .debug_line    0x000009bd      0x3be ./Generated_Code/PE_LDD.o
+ .debug_line    0x00000d7b      0x2df ./Generated_Code/MOSI.o
+ .debug_line    0x0000105a      0x2a6 ./Generated_Code/MISO.o
+ .debug_line    0x00001300      0x2dd ./Generated_Code/LED.o
+ .debug_line    0x000015dd      0x2f0 ./Generated_Code/IO1.o
+ .debug_line    0x000018cd      0x358 ./Generated_Code/CsIO1.o
+ .debug_line    0x00001c25      0x4c4 ./Generated_Code/Cpu.o
+ .debug_line    0x000020e9      0x2db ./Generated_Code/CS.o
+ .debug_line    0x000023c4      0x2ef ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_line    0x000026b3      0x2ca ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_line    0x0000297d      0x4a0 ./Sources/main.o
+ .debug_line    0x00002e1d      0x3b8 ./Sources/Events.o
+ .debug_line    0x000031d5       0xb0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
+ .debug_line    0x00003285       0x9a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
+ .debug_line    0x0000331f       0xe3 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+ .debug_line    0x00003402       0xe0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+ .debug_line    0x000034e2       0x8d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_line    0x0000356f       0x90 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_line    0x000035ff      0x456 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+ .debug_line    0x00003a55      0x2e3 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
+ .debug_line    0x00003d38      0x1be F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_line    0x00003ef6       0xce F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
+ .debug_line    0x00003fc4       0xc2 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
+ .debug_line    0x00004086      0x30a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
+ .debug_line    0x00004390       0xc0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
+ .debug_line    0x00004450      0x158 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
+ .debug_line    0x000045a8      0x11e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_line    0x000046c6       0xf6 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_line    0x000047bc       0x99 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
+ .debug_line    0x00004855       0x9f F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_line    0x000048f4       0x8b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_line    0x0000497f       0x7d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_line    0x000049fc       0x7d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
+ .debug_line    0x00004a79       0x85 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_line    0x00004afe       0x4d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
+ .debug_line    0x00004b4b       0xf0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+ .debug_line    0x00004c3b      0x1d9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+ .debug_line    0x00004e14       0x60 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
+ .debug_line    0x00004e74      0x173 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
+ .debug_line    0x00004fe7       0xb9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
+ .debug_line    0x000050a0       0x73 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
+ .debug_line    0x00005113      0x1f9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+ .debug_line    0x0000530c       0x77 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
+ .debug_line    0x00005383       0x74 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
+ .debug_line    0x000053f7      0x121 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
+ .debug_line    0x00005518       0xc6 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
+ .debug_line    0x000055de       0x6c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x0000564a       0xbd F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_line    0x00005707      0x117 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
-.debug_str      0x00000000     0x1fa9
- .debug_str     0x00000000      0x169 ./Generated_Code/WAIT1.o
-                                0x1a0 (size before relaxing)
- .debug_str     0x00000169       0x5e ./Generated_Code/Vectors.o
-                                0x19b (size before relaxing)
- .debug_str     0x000001c7      0x168 ./Generated_Code/SCL.o
-                                0x2ca (size before relaxing)
- .debug_str     0x0000032f      0x16b ./Generated_Code/PE_LDD.o
-                                0x2fe (size before relaxing)
- .debug_str     0x0000049a       0x78 ./Generated_Code/MOSI.o
-                                0x2d2 (size before relaxing)
- .debug_str     0x00000512       0x54 ./Generated_Code/MISO.o
-                                0x2ae (size before relaxing)
- .debug_str     0x00000566       0x70 ./Generated_Code/LED.o
-                                0x2c1 (size before relaxing)
- .debug_str     0x000005d6      0x1c6 ./Generated_Code/IO1.o
-                                0x3c1 (size before relaxing)
- .debug_str     0x0000079c       0x9b ./Generated_Code/CsIO1.o
-                                0x205 (size before relaxing)
- .debug_str     0x00000837      0x1bb ./Generated_Code/Cpu.o
-                                0x44a (size before relaxing)
- .debug_str     0x000009f2       0x68 ./Generated_Code/CS.o
-                                0x2c2 (size before relaxing)
- .debug_str     0x00000a5a       0x85 ./Project_Settings/Startup_Code/__arm_start.o
+.debug_str      0x00000000     0x2082
+ .debug_str     0x00000000      0x13f ./Generated_Code/WAIT1.o
+                                0x176 (size before relaxing)
+ .debug_str     0x0000013f       0x5e ./Generated_Code/Vectors.o
+                                0x171 (size before relaxing)
+ .debug_str     0x0000019d      0x168 ./Generated_Code/SCL.o
+                                0x2a0 (size before relaxing)
+ .debug_str     0x00000305      0x16b ./Generated_Code/PE_LDD.o
+                                0x2d4 (size before relaxing)
+ .debug_str     0x00000470       0x78 ./Generated_Code/MOSI.o
+                                0x2a8 (size before relaxing)
+ .debug_str     0x000004e8       0x54 ./Generated_Code/MISO.o
+                                0x284 (size before relaxing)
+ .debug_str     0x0000053c       0x70 ./Generated_Code/LED.o
+                                0x297 (size before relaxing)
+ .debug_str     0x000005ac      0x1c6 ./Generated_Code/IO1.o
+                                0x397 (size before relaxing)
+ .debug_str     0x00000772       0x9b ./Generated_Code/CsIO1.o
+                                0x1db (size before relaxing)
+ .debug_str     0x0000080d      0x1bb ./Generated_Code/Cpu.o
+                                0x420 (size before relaxing)
+ .debug_str     0x000009c8       0x68 ./Generated_Code/CS.o
+                                0x298 (size before relaxing)
+ .debug_str     0x00000a30       0xd8 ./Project_Settings/Startup_Code/__arm_start.o
                                 0x1bc (size before relaxing)
- .debug_str     0x00000adf       0x41 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_str     0x00000b08       0x41 ./Project_Settings/Startup_Code/__arm_end.o
                                  0xf3 (size before relaxing)
- .debug_str     0x00000b20       0x55 ./Sources/main.o
-                                0x1a0 (size before relaxing)
- .debug_str     0x00000b75       0x21 ./Sources/Events.o
-                                0x15e (size before relaxing)
- .debug_str     0x00000b96      0x18b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
+ .debug_str     0x00000b49       0x9e ./Sources/main.o
+                                0x1c4 (size before relaxing)
+ .debug_str     0x00000be7       0x21 ./Sources/Events.o
+                                0x134 (size before relaxing)
+ .debug_str     0x00000c08      0x18b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
                                 0x2e9 (size before relaxing)
- .debug_str     0x00000d21       0x1d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
+ .debug_str     0x00000d93       0x1d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
                                 0x2cc (size before relaxing)
- .debug_str     0x00000d3e       0x2e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_str     0x00000db0       0x68 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+                                0x33c (size before relaxing)
+ .debug_str     0x00000e18      0x10b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+                                0x3d1 (size before relaxing)
+ .debug_str     0x00000f23       0x2e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
                                 0x157 (size before relaxing)
- .debug_str     0x00000d6c       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_str     0x00000f51       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
                                 0x140 (size before relaxing)
- .debug_str     0x00000d88      0x2cb F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+ .debug_str     0x00000f6d      0x2c3 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
                                 0x4a7 (size before relaxing)
- .debug_str     0x00001053      0x196 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
+ .debug_str     0x00001230      0x15d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
                                 0x45f (size before relaxing)
- .debug_str     0x000011e9       0x9d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_str     0x0000138d       0x9d F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
                                 0x1bc (size before relaxing)
- .debug_str     0x00001286       0xe4 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
+ .debug_str     0x0000142a       0xda F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
+                                0x3ed (size before relaxing)
+ .debug_str     0x00001504       0x21 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
                                 0x39e (size before relaxing)
- .debug_str     0x0000136a      0x28b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
+ .debug_str     0x00001525      0x28b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
                                 0x533 (size before relaxing)
- .debug_str     0x000015f5       0xc6 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
+ .debug_str     0x000017b0       0xc6 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
                                 0x442 (size before relaxing)
- .debug_str     0x000016bb      0x164 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
+ .debug_str     0x00001876       0xa5 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
                                 0x53b (size before relaxing)
- .debug_str     0x0000181f       0x2b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_str     0x0000191b       0x2b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
                                 0x1fb (size before relaxing)
- .debug_str     0x0000184a       0x25 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_str     0x00001946       0x25 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
                                 0x152 (size before relaxing)
- .debug_str     0x0000186f       0x22 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
+ .debug_str     0x0000196b       0x22 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
                                 0x145 (size before relaxing)
- .debug_str     0x00001891       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_str     0x0000198d       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
                                 0x148 (size before relaxing)
- .debug_str     0x000018ad       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_str     0x000019a9       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
                                 0x138 (size before relaxing)
- .debug_str     0x000018c9       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_str     0x000019c5       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
                                 0x137 (size before relaxing)
- .debug_str     0x000018e5       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
+ .debug_str     0x000019e1       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
                                 0x142 (size before relaxing)
- .debug_str     0x00001901       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_str     0x000019fd       0x1c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
                                 0x140 (size before relaxing)
- .debug_str     0x0000191d       0x12 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
+ .debug_str     0x00001a19       0x12 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(errno.o)
                                 0x12c (size before relaxing)
- .debug_str     0x0000192f       0x8b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+ .debug_str     0x00001a2b       0x68 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
                                 0x373 (size before relaxing)
- .debug_str     0x000019ba       0x84 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+ .debug_str     0x00001a93       0x84 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
                                 0x219 (size before relaxing)
- .debug_str     0x00001a3e       0xd0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
+ .debug_str     0x00001b17       0xd0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(float.o)
                                 0x225 (size before relaxing)
- .debug_str     0x00001b0e       0xdf F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
+ .debug_str     0x00001be7       0xdf F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
                                 0x228 (size before relaxing)
- .debug_str     0x00001bed       0x24 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
+ .debug_str     0x00001cc6       0x24 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
                                 0x15d (size before relaxing)
- .debug_str     0x00001c11       0x11 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
+ .debug_str     0x00001cea       0x11 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
                                 0x125 (size before relaxing)
- .debug_str     0x00001c22       0x6c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+ .debug_str     0x00001cfb       0x6c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
                                 0x1cd (size before relaxing)
- .debug_str     0x00001c8e       0x1e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
+ .debug_str     0x00001d67       0x1e F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
                                 0x13f (size before relaxing)
- .debug_str     0x00001cac       0x12 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
+ .debug_str     0x00001d85       0x12 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
                                 0x12b (size before relaxing)
- .debug_str     0x00001cbe       0x21 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
+ .debug_str     0x00001d97       0x21 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
                                 0x17e (size before relaxing)
- .debug_str     0x00001cdf       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
+ .debug_str     0x00001db8       0x20 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
                                 0x164 (size before relaxing)
- .debug_str     0x00001cff      0x126 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_str     0x00001dd8      0x126 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
                                 0x181 (size before relaxing)
- .debug_str     0x00001e25       0x9b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_str     0x00001efe       0x9b F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
                                 0x13c (size before relaxing)
- .debug_str     0x00001ec0       0xe9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_str     0x00001f99       0xe9 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
                                 0x1b5 (size before relaxing)
 
 .comment        0x00000000       0x79
@@ -1675,11 +1733,14 @@ OUTPUT(EnergyHarvesting.elf elf32-littlearm)
  .comment       0x00000000       0x7a ./Sources/Events.o
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
+ .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+ .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
@@ -1708,7 +1769,7 @@ OUTPUT(EnergyHarvesting.elf elf32-littlearm)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
  .comment       0x00000000       0x7a F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
-.debug_frame    0x00000000     0x13b4
+.debug_frame    0x00000000     0x1470
  .debug_frame   0x00000000       0x8c ./Generated_Code/WAIT1.o
  .debug_frame   0x0000008c       0xb0 ./Generated_Code/SCL.o
  .debug_frame   0x0000013c       0x6c ./Generated_Code/PE_LDD.o
@@ -1721,54 +1782,57 @@ OUTPUT(EnergyHarvesting.elf elf32-littlearm)
  .debug_frame   0x000004d8       0xb0 ./Generated_Code/CS.o
  .debug_frame   0x00000588       0x4c ./Project_Settings/Startup_Code/__arm_start.o
  .debug_frame   0x000005d4       0x30 ./Project_Settings/Startup_Code/__arm_end.o
- .debug_frame   0x00000604       0x6c ./Sources/main.o
- .debug_frame   0x00000670       0x2c ./Sources/Events.o
- .debug_frame   0x0000069c       0x34 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
- .debug_frame   0x000006d0       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
- .debug_frame   0x000006f8       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
- .debug_frame   0x00000724       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
- .debug_frame   0x0000074c       0x74 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
- .debug_frame   0x000007c0       0x34 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
- .debug_frame   0x000007f4      0x158 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
- .debug_frame   0x0000094c       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
- .debug_frame   0x00000978       0x84 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
- .debug_frame   0x000009fc       0x48 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
- .debug_frame   0x00000a44       0x64 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
- .debug_frame   0x00000aa8       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
- .debug_frame   0x00000ad8       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
- .debug_frame   0x00000b04       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
- .debug_frame   0x00000b2c       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
- .debug_frame   0x00000b54       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
- .debug_frame   0x00000b7c       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
- .debug_frame   0x00000ba4       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
- .debug_frame   0x00000bcc       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
- .debug_frame   0x00000bf4       0x58 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
- .debug_frame   0x00000c4c       0x6c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
- .debug_frame   0x00000cb8       0xe0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
- .debug_frame   0x00000d98       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
- .debug_frame   0x00000dc4       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
- .debug_frame   0x00000dec       0x34 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
- .debug_frame   0x00000e20       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
- .debug_frame   0x00000e4c       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
- .debug_frame   0x00000e74       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
- .debug_frame   0x00000ea4       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
- .debug_frame   0x00000ed4       0x20 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
- .debug_frame   0x00000ef4       0x20 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
- .debug_frame   0x00000f14       0x60 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(bpabi.o)
- .debug_frame   0x00000f74       0x3c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(adddf3.o)
- .debug_frame   0x00000fb0       0x3c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(divdf3.o)
- .debug_frame   0x00000fec       0x34 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(eqdf2.o)
- .debug_frame   0x00001020       0x38 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(gedf2.o)
- .debug_frame   0x00001058       0x38 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(ledf2.o)
- .debug_frame   0x00001090       0x3c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(muldf3.o)
- .debug_frame   0x000010cc       0x38 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(subdf3.o)
- .debug_frame   0x00001104       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(fixdfsi.o)
- .debug_frame   0x00001130       0x30 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(floatsidf.o)
- .debug_frame   0x00001160       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(extendsfdf2.o)
- .debug_frame   0x0000118c       0x30 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(truncdfsf2.o)
- .debug_frame   0x000011bc       0x30 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_muldi3.o)
- .debug_frame   0x000011ec       0x3c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divdi3.o)
- .debug_frame   0x00001228       0x3c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivdi3.o)
- .debug_frame   0x00001264       0x40 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
- .debug_frame   0x000012a4       0x54 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
- .debug_frame   0x000012f8       0xbc F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_frame   0x00000604       0x70 ./Sources/main.o
+ .debug_frame   0x00000674       0x2c ./Sources/Events.o
+ .debug_frame   0x000006a0       0x34 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printf.o)
+ .debug_frame   0x000006d4       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(puts.o)
+ .debug_frame   0x000006fc       0x4c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanf.o)
+ .debug_frame   0x00000748       0x40 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ungetc.o)
+ .debug_frame   0x00000788       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_frame   0x000007b4       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_frame   0x000007dc       0x74 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_fp_ll.o)
+ .debug_frame   0x00000850       0x34 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_fp.o)
+ .debug_frame   0x00000884      0x158 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_frame   0x000009dc       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__getchar.o)
+ .debug_frame   0x00000a08       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__putchar.o)
+ .debug_frame   0x00000a34       0x84 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtold.o)
+ .debug_frame   0x00000ab8       0x48 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ansi_files.o)
+ .debug_frame   0x00000b00       0x64 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(fwrite.o)
+ .debug_frame   0x00000b64       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_frame   0x00000b94       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_frame   0x00000bc0       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__memrchr.o)
+ .debug_frame   0x00000be8       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_frame   0x00000c10       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_frame   0x00000c38       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_frame   0x00000c60       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strcpy.o)
+ .debug_frame   0x00000c88       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_frame   0x00000cb0       0x58 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__buffer_io.o)
+ .debug_frame   0x00000d08       0x6c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(ansi_fp.o)
+ .debug_frame   0x00000d74       0xe0 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(math_api.o)
+ .debug_frame   0x00000e54       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_frexp.o)
+ .debug_frame   0x00000e80       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_pow.o)
+ .debug_frame   0x00000ea8       0x34 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_pow.o)
+ .debug_frame   0x00000edc       0x2c F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(scalbn.o)
+ .debug_frame   0x00000f08       0x28 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(w_sqrt.o)
+ .debug_frame   0x00000f30       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(e_sqrt.o)
+ .debug_frame   0x00000f60       0x30 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a(s_ldexp.o)
+ .debug_frame   0x00000f90       0x20 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000fb0       0x20 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000fd0       0x60 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(bpabi.o)
+ .debug_frame   0x00001030       0x3c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(adddf3.o)
+ .debug_frame   0x0000106c       0x3c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(divdf3.o)
+ .debug_frame   0x000010a8       0x34 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(eqdf2.o)
+ .debug_frame   0x000010dc       0x38 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(gedf2.o)
+ .debug_frame   0x00001114       0x38 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(ledf2.o)
+ .debug_frame   0x0000114c       0x3c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(muldf3.o)
+ .debug_frame   0x00001188       0x38 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(subdf3.o)
+ .debug_frame   0x000011c0       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(fixdfsi.o)
+ .debug_frame   0x000011ec       0x30 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(floatsidf.o)
+ .debug_frame   0x0000121c       0x2c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(extendsfdf2.o)
+ .debug_frame   0x00001248       0x30 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(truncdfsf2.o)
+ .debug_frame   0x00001278       0x30 f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_muldi3.o)
+ .debug_frame   0x000012a8       0x3c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_divdi3.o)
+ .debug_frame   0x000012e4       0x3c f:/program files w10/codewarrior_10_6/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00001320       0x40 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_frame   0x00001360       0x54 F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_frame   0x000013b4       0xbc F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)

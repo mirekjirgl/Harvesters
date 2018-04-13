@@ -515,7 +515,7 @@ PE_DEBUGHALT();
       </inhrbean>
       <Wait_until_at_least_one_char_is_received v="yes" />
       <group name="New line sequence settings">
-        <Rx_new_line_sequence_ v="CR" />
+        <Rx_new_line_sequence_ v="CRLF" />
         <Tx_new_line_sequence_ v="CRLF" />
       </group>
     </Properties>
@@ -526,12 +526,12 @@ PE_DEBUGHALT();
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="PTD_3" type="BitIO_LDD">
+  <Bean name="MOSI" type="BitIO_LDD">
     <Enabled v="Y" />
     <Properties>
-      <Component_name v="PTD_3" />
-      <Pin_for_I_O v="PTD3/SPI0_MISO/UART2_TX/TPM0_CH3/SPI0_MOSI" />
-      <Direction v="Input/Output" />
+      <Component_name v="MOSI" />
+      <Pin_for_I_O v="PTE1/SPI1_MOSI/UART1_RX/SPI1_MISO/I2C1_SCL" />
+      <Direction v="Output" />
       <group name="Initialization">
         <Init__direction v="Output" />
         <Init__value v="0" />
@@ -543,8 +543,104 @@ PE_DEBUGHALT();
       <Init v="generate code" />
       <Deinit v="don&amp;apos;t generate code" />
       <GetDir v="don&amp;apos;t generate code" />
-      <SetDir v="generate code" />
-      <SetInput v="generate code" />
+      <SetDir v="don&amp;apos;t generate code" />
+      <SetInput v="don&amp;apos;t generate code" />
+      <SetOutput v="don&amp;apos;t generate code" />
+      <GetVal v="generate code" />
+      <PutVal v="generate code" />
+      <ClrVal v="generate code" />
+      <SetVal v="generate code" />
+      <NegVal v="don&amp;apos;t generate code" />
+      <ConnectPin v="don&amp;apos;t generate code" />
+      <GetRawVal v="don&amp;apos;t generate code" />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="MISO" type="BitIO_LDD">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="MISO" />
+      <Pin_for_I_O v="PTE0/UART1_TX/RTC_CLKOUT/CMP0_OUT/I2C1_SDA" />
+      <Direction v="Input" />
+      <group name="Initialization">
+        <Init__direction v="Input" />
+        <Init__value v="0" />
+        <Auto_initialization v="no" />
+      </group>
+      <Safe_mode v="no" />
+    </Properties>
+    <Methods>
+      <Init v="generate code" />
+      <Deinit v="don&amp;apos;t generate code" />
+      <GetDir v="don&amp;apos;t generate code" />
+      <SetDir v="don&amp;apos;t generate code" />
+      <SetInput v="don&amp;apos;t generate code" />
+      <SetOutput v="don&amp;apos;t generate code" />
+      <GetVal v="generate code" />
+      <PutVal v="don&amp;apos;t generate code" />
+      <ClrVal v="don&amp;apos;t generate code" />
+      <SetVal v="don&amp;apos;t generate code" />
+      <NegVal v="don&amp;apos;t generate code" />
+      <ConnectPin v="don&amp;apos;t generate code" />
+      <GetRawVal v="don&amp;apos;t generate code" />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="SCL" type="BitIO_LDD">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="SCL" />
+      <Pin_for_I_O v="PTD7/SPI1_MISO/UART0_TX/SPI1_MOSI" />
+      <Direction v="Output" />
+      <group name="Initialization">
+        <Init__direction v="Output" />
+        <Init__value v="0" />
+        <Auto_initialization v="no" />
+      </group>
+      <Safe_mode v="no" />
+    </Properties>
+    <Methods>
+      <Init v="generate code" />
+      <Deinit v="don&amp;apos;t generate code" />
+      <GetDir v="don&amp;apos;t generate code" />
+      <SetDir v="don&amp;apos;t generate code" />
+      <SetInput v="don&amp;apos;t generate code" />
+      <SetOutput v="don&amp;apos;t generate code" />
+      <GetVal v="generate code" />
+      <PutVal v="generate code" />
+      <ClrVal v="generate code" />
+      <SetVal v="generate code" />
+      <NegVal v="don&amp;apos;t generate code" />
+      <ConnectPin v="don&amp;apos;t generate code" />
+      <GetRawVal v="don&amp;apos;t generate code" />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="CS" type="BitIO_LDD">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="CS" />
+      <Pin_for_I_O v="ADC0_SE7b/PTD6/LLWU_P15/SPI1_MOSI/UART0_RX/SPI1_MISO" />
+      <Direction v="Output" />
+      <group name="Initialization">
+        <Init__direction v="Output" />
+        <Init__value v="0" />
+        <Auto_initialization v="no" />
+      </group>
+      <Safe_mode v="no" />
+    </Properties>
+    <Methods>
+      <Init v="generate code" />
+      <Deinit v="don&amp;apos;t generate code" />
+      <GetDir v="don&amp;apos;t generate code" />
+      <SetDir v="don&amp;apos;t generate code" />
+      <SetInput v="don&amp;apos;t generate code" />
       <SetOutput v="don&amp;apos;t generate code" />
       <GetVal v="generate code" />
       <PutVal v="generate code" />

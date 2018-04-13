@@ -20,7 +20,7 @@
 -g3
 -gdwarf-2
 -gstrict-dwarf
--T"F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/Projects/EnergyHarvesting/Project_Settings/Linker_Files/ProcessorExpert.ld"
+-T"F:/Git/Harvesters/EnergyHarvesting/Project_Settings/Linker_Files/ProcessorExpert.ld"
 -Xlinker
 --gc-sections
 -L"F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m"

@@ -3,8 +3,8 @@
   <Header>
     <Name>EnergyHarvesting</Name>
     <SavedBy>Jirgl</SavedBy>
-    <ModificationStamp>26</ModificationStamp>
-    <Date>2017-09-11</Date>
+    <ModificationStamp>34</ModificationStamp>
+    <Date>2018-04-13</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.9.0.RT6_b1411-0406</PEversion>
   </Header>
@@ -29,7 +29,7 @@
     <UseExistingModules>true</UseExistingModules>
     <RenamePeripheries>false</RenamePeripheries>
     <Autodependency>true</Autodependency>
-    <ProjectCompNumb>60</ProjectCompNumb>
+    <ProjectCompNumb>63</ProjectCompNumb>
     <DelUnusedPreviouslyGenFiles>true</DelUnusedPreviouslyGenFiles>
     <GeneratedCodeFrozen>false</GeneratedCodeFrozen>
     <AssignInitComponentNameToPrph>true</AssignInitComponentNameToPrph>
@@ -6075,7 +6075,7 @@
               <UserReadOnly>false</UserReadOnly>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
               <Value>false</Value>
-              <Expanded>false</Expanded>
+              <Expanded>true</Expanded>
               <LastSelection>false</LastSelection>
               <LastUserSel>no</LastUserSel>
             </ItemState>
@@ -6091,7 +6091,7 @@
               <UserReadOnly>false</UserReadOnly>
               <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
               <Value>false</Value>
-              <Expanded>false</Expanded>
+              <Expanded>true</Expanded>
               <LastSelection>false</LastSelection>
               <LastUserSel>no</LastUserSel>
             </ItemState>

@@ -6,7 +6,7 @@
 **     Component   : Wait
 **     Version     : Component 01.057, Driver 01.00, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-08-28, 11:32, # CodeGen: 2
+**     Date/Time   : 2018-03-07, 18:28, # CodeGen: 24
 **     Abstract    :
 **
 **     Settings    :

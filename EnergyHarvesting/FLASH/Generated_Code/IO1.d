@@ -14,9 +14,9 @@ Generated_Code/IO1.o: ../Generated_Code/IO1.c \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h \
  ../Generated_Code/PE_Error.h ../Generated_Code/PE_Const.h \
  ../Generated_Code/IO_Map.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/IO_Map/MKL25Z4.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/PDD/UART0_PDD.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/PDD/PDD_Types.h
+ F:/Git/Harvesters/EnergyHarvesting/Static_Code/IO_Map/MKL25Z4.h \
+ F:/Git/Harvesters/EnergyHarvesting/Static_Code/PDD/UART0_PDD.h \
+ F:/Git/Harvesters/EnergyHarvesting/Static_Code/PDD/PDD_Types.h
 
 F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -52,8 +52,8 @@ F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/E
 
 ../Generated_Code/IO_Map.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/IO_Map/MKL25Z4.h:
+F:/Git/Harvesters/EnergyHarvesting/Static_Code/IO_Map/MKL25Z4.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/PDD/UART0_PDD.h:
+F:/Git/Harvesters/EnergyHarvesting/Static_Code/PDD/UART0_PDD.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/PDD/PDD_Types.h:
+F:/Git/Harvesters/EnergyHarvesting/Static_Code/PDD/PDD_Types.h:

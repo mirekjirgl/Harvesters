@@ -2,8 +2,8 @@ Sources/main.o: ../Sources/main.c \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/common.prefix \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/Cpu.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Types.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/Cpu.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Types.h \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ansi_parms.h \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewlGlobals.h \
@@ -12,21 +12,21 @@ Sources/main.o: ../Sources/main.c \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/cstdint \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/limits_api.h \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Error.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Const.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/IO_Map.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/IO_Map/MKL25Z4.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Error.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Const.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/IO_Map.h \
+ F:/Git/Harvesters/EnergyHarvesting/Static_Code/IO_Map/MKL25Z4.h \
  ../Sources/Events.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Types.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Error.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Const.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/IO_Map.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/LED.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/PDD/GPIO_PDD.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/PDD/PDD_Types.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/Cpu.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/WAIT1.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/CsIO1.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Types.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Error.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Const.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/IO_Map.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/LED.h \
+ F:/Git/Harvesters/EnergyHarvesting/Static_Code/PDD/GPIO_PDD.h \
+ F:/Git/Harvesters/EnergyHarvesting/Static_Code/PDD/PDD_Types.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/Cpu.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/WAIT1.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/CsIO1.h \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdio.h \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/cstdio \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/cstddef \
@@ -41,11 +41,11 @@ Sources/main.o: ../Sources/main.c \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdarg.h \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/cstdarg \
  F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/arm/stdarg.ARM.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/IO1.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/MOSI.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/MISO.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/SCL.h \
- F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/CS.h
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/IO1.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/MOSI.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/MISO.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/SCL.h \
+ F:/Git/Harvesters/EnergyHarvesting/Generated_Code/CS.h
 
 F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -53,9 +53,9 @@ F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/E
 
 F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_c_version.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/Cpu.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/Cpu.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Types.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Types.h:
 
 F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h:
 
@@ -73,35 +73,35 @@ F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/E
 
 F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Error.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Error.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Const.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Const.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/IO_Map.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/IO_Map.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/IO_Map/MKL25Z4.h:
+F:/Git/Harvesters/EnergyHarvesting/Static_Code/IO_Map/MKL25Z4.h:
 
 ../Sources/Events.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Types.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Types.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Error.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Error.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/PE_Const.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/PE_Const.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/IO_Map.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/IO_Map.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/LED.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/LED.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/PDD/GPIO_PDD.h:
+F:/Git/Harvesters/EnergyHarvesting/Static_Code/PDD/GPIO_PDD.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Static_Code/PDD/PDD_Types.h:
+F:/Git/Harvesters/EnergyHarvesting/Static_Code/PDD/PDD_Types.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/Cpu.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/Cpu.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/WAIT1.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/WAIT1.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/CsIO1.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/CsIO1.h:
 
 F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdio.h:
 
@@ -131,12 +131,12 @@ F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/E
 
 F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/arm/stdarg.ARM.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/IO1.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/IO1.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/MOSI.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/MOSI.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/MISO.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/MISO.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/SCL.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/SCL.h:
 
-F:/Program\ Files\ W10/CodeWarrior_10_6/CW\ MCU\ v10.6/Projects/EnergyHarvesting/Generated_Code/CS.h:
+F:/Git/Harvesters/EnergyHarvesting/Generated_Code/CS.h:
