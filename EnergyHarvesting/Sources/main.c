@@ -132,7 +132,7 @@ void SPI_write_byte(unsigned char SPI_addr, unsigned char SPI_byte)
 	CS_ClrVal(CS_Init((LDD_TUserData*) NULL));
 }
 
-char SPI_read_byte(unsigned char SPI_addr)
+unsigned char SPI_read_byte(unsigned char SPI_addr)
 {
 	unsigned char i, SPI_byte, data_tmp[8];
 	unsigned char shift = 64;
@@ -184,13 +184,13 @@ char SPI_read_byte(unsigned char SPI_addr)
 	for(i=0;i<8;i++)
 	{
 		SPI_byte |= data_tmp[i];
-		SPI_byte <<= 1;
+		if(i<7)		
+			SPI_byte <<= 1;
 	}
 	
 	CS_ClrVal(CS_Init((LDD_TUserData*) NULL));
-	return SPI_byte>>=1;
+	return SPI_byte;
 }
-
 
 /* main */
 int main(void)
@@ -228,28 +228,43 @@ int main(void)
   printf("reg_lux_cgf (0x1C rw): 0x%x\r\n", SPI_read_byte(0x1C));
   printf("reg_lux_result (0x1D ro): 0x%x\r\n", SPI_read_byte(0x1D));
   printf("\r\n");
-
-  printf("Pro zapis registru (nebo EEPROM) zadej 1, pro ukonceni kdykoli zadej 0.\r\n");
+  
+  printf("Pro zapis registru (nebo EEPROM) zadej 1, pro cteni registru (nebo EEPROM) zadej 2, pro ukonceni zadej 0.\r\n");
   scanf("%d", &control_char);
   
-  printf("%d\r\n", control_char);
+  //printf("%d\r\n", control_char);
   
-  while(control_char == 1)
+  while(control_char != 0)
   {
-	  // Register settings
-	  printf("Zadej adresu registru: \r\n");
-	  scanf("%x", &reg_addr);
-	  printf("Zadej hodnotu registru 0x%x:\r\n",reg_addr);
-	  scanf("%x", &reg_value);
-	  printf("Zadal jsi hodnotu registru 0x%x:\r\n",reg_value);
-	  SPI_write_byte(reg_addr, reg_value);
-	  WAIT1_Waitms(100);
-	  printf("Zapsal jsi hodnotu 0x%x do registru 0x%x:\r\n",SPI_read_byte(reg_addr), reg_addr);
-	  printf("\r\n");
-	  
-	  printf("Zapsat do dalsiho registru? (ano-1/ne-0)\r\n");
-	  scanf("%d", &control_char);
+	  if(control_char == 1)
+	  {
+		  // Register settings
+		  printf("Zadej adresu registru: \r\n");
+		  scanf("%x", &reg_addr);
+		  printf("Zadej hodnotu registru 0x%x:\r\n",reg_addr);
+		  scanf("%x", &reg_value);
+		  printf("Zadal jsi hodnotu registru 0x%x:\r\n",reg_value);
+		  SPI_write_byte(reg_addr, reg_value);
+		  WAIT1_Waitms(100);
+		  printf("Zapsal jsi hodnotu 0x%x do registru 0x%x:\r\n",SPI_read_byte(reg_addr), reg_addr);
+		  printf("\r\n");
+		  
+		  printf("Zapsat do dalsiho registru? (ano-1, cteni-2, konec-0)\r\n");
+		  scanf("%d", &control_char);
+	  }
+
+	  if(control_char == 2)
+	  {
+		  // Register reading
+		  printf("Zadej adresu registru: \r\n");
+		  scanf("%x", &reg_addr);
+		  printf("Hodnota registru 0x%x je 0x%x:\r\n",reg_addr, SPI_read_byte(reg_addr));
+		 
+		  printf("Cist dalsi registr? (ano-2, zapis-1, konec-0)\r\n");
+		  scanf("%d", &control_char);
+	  }
   }
+  
   
   printf("Konec.\r\n");
 

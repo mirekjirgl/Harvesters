@@ -309,7 +309,7 @@
     </GenFiles>
     <SignalListFile>Documentation\EnergyHarvesting_SIGNALS.txt</SignalListFile>
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>34</ProjectModificationStamp>
+    <ProjectModificationStamp>35</ProjectModificationStamp>
   </Options>
   <CpuID_2>
     <Generated>true</Generated>
