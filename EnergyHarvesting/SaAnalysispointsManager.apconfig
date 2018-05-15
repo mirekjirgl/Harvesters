@@ -1,6 +1,6 @@
 <Analysispoints>
 	<Name>AnalysispointsManager</Name>
-	<ProjectPath>F:/Git/Harvesters/EnergyHarvesting/SaAnalysispointsManager.apconfig</ProjectPath>
+	<ProjectPath>D:/Git/Harvesters/EnergyHarvesting/SaAnalysispointsManager.apconfig</ProjectPath>
 	<MaxNumberOfCores>1</MaxNumberOfCores>
 	<Comments>Analysispoints Manager</Comments>
 	<IgnoreAll>false</IgnoreAll>
