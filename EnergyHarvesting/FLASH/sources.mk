@@ -71,4 +71,5 @@ SUBDIRS := \
 Sources \
 Project_Settings/Startup_Code \
 Generated_Code \
+.metadata/.plugins/org.eclipse.cdt.make.core \
 

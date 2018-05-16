@@ -4,14 +4,14 @@
 -g3
 -gdwarf-2
 -gstrict-dwarf
--I"F:/Git/Harvesters/EnergyHarvesting/Project_Headers"
--I"F:/Git/Harvesters/EnergyHarvesting/Project_Settings/Startup_Code"
--I"F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include"
--I"F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_Runtime/include"
--I"F:/Git/Harvesters/EnergyHarvesting/Generated_Code"
--I"F:/Git/Harvesters/EnergyHarvesting/Sources"
--I"F:/Git/Harvesters/EnergyHarvesting/Static_Code/PDD"
--I"F:/Git/Harvesters/EnergyHarvesting/Static_Code/IO_Map"
+-I"D:/Git/Harvesters/EnergyHarvesting/Project_Headers"
+-I"D:/Git/Harvesters/EnergyHarvesting/Project_Settings/Startup_Code"
+-I"C:/Freescale/CW MCU v11.0/MCU/ARM_GCC_Support/ewl/EWL_C/include"
+-I"C:/Freescale/CW MCU v11.0/MCU/ARM_GCC_Support/ewl/EWL_Runtime/include"
+-I"D:/Git/Harvesters/EnergyHarvesting/Generated_Code"
+-I"D:/Git/Harvesters/EnergyHarvesting/Sources"
+-I"D:/Git/Harvesters/EnergyHarvesting/Static_Code/PDD"
+-I"D:/Git/Harvesters/EnergyHarvesting/Static_Code/IO_Map"
 -O0
 -ffunction-sections
 -fdata-sections

@@ -1,3 +1,4 @@
+"./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o"
 "./Generated_Code/WAIT1.o"
 "./Generated_Code/Vectors.o"
 "./Generated_Code/SCL.o"
@@ -6,6 +7,7 @@
 "./Generated_Code/MISO.o"
 "./Generated_Code/LED.o"
 "./Generated_Code/IO1.o"
+"./Generated_Code/I2C2.o"
 "./Generated_Code/CsIO1.o"
 "./Generated_Code/Cpu.o"
 "./Generated_Code/CS.o"
@@ -20,10 +22,10 @@
 -g3
 -gdwarf-2
 -gstrict-dwarf
--T"F:/Git/Harvesters/EnergyHarvesting/Project_Settings/Linker_Files/ProcessorExpert.ld"
+-T"D:/Git/Harvesters/EnergyHarvesting/Project_Settings/Linker_Files/ProcessorExpert.ld"
 -Xlinker
 --gc-sections
--L"F:/Program Files W10/CodeWarrior_10_6/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m"
+-L"C:/Freescale/CW MCU v11.0/MCU/ARM_GCC_Support/ewl/lib/armv6-m"
 -Wl,-Map,EnergyHarvesting.map
 -n
 -specs=ewl_c.specs

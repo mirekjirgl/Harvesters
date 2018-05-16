@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#Progress monitor hint: 16
+#Progress monitor hint: 18
 first : all
 -include ../makefile.init
 
@@ -17,6 +17,7 @@ RM := "$(GNU_Make_Install_DirEnv)/rm" -rf
 -include Sources/subdir.mk
 -include Project_Settings/Startup_Code/subdir.mk
 -include Generated_Code/subdir.mk
+-include .metadata/.plugins/org.eclipse.cdt.make.core/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -77,21 +78,21 @@ all: warning-messages explicit-dependencies EnergyHarvesting.elf secondary-outpu
 # Tool invocations
 EnergyHarvesting.elf: $(OBJS) $(USER_OBJS) ../Project_Settings/Linker_Files/ProcessorExpert.ld
 	@echo 'Building target: $@'
-	@echo 'Executing target #17 $@'
+	@echo 'Executing target #19 $@'
 	@echo 'Invoking: ARM Ltd Windows GCC C Linker'
 	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED) @"EnergyHarvesting.args" -o"EnergyHarvesting.elf"
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 EnergyHarvesting.hex: EnergyHarvesting.elf
-	@echo 'Executing target #18 $@'
+	@echo 'Executing target #20 $@'
 	@echo 'Invoking: ARM Ltd Windows GNU Create Flash Image'
 	"$(ARMSourceryDirEnv)/arm-none-eabi-objcopy"  -O ihex EnergyHarvesting.elf "EnergyHarvesting.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 EnergyHarvesting.siz: EnergyHarvesting.elf
-	@echo 'Executing target #19 $@'
+	@echo 'Executing target #21 $@'
 	@echo 'Invoking: ARM Ltd Windows GNU Print Size'
 	"$(ARMSourceryDirEnv)/arm-none-eabi-size"  --format=berkeley EnergyHarvesting.elf
 	@echo 'Finished building: $@'
@@ -99,7 +100,7 @@ EnergyHarvesting.siz: EnergyHarvesting.elf
 
 # Other Targets
 clean:
-	-$(RM) $(S_DEPS_QUOTED) $(SECONDARY_FLASH_QUOTED) "./*/*.o" "./*/*/*.o"  $(S_UPPER_DEPS_QUOTED) $(ASM_DEPS_QUOTED) $(SECONDARY_SIZE_QUOTED) $(ASM_UPPER_DEPS_QUOTED) $(SX_DEPS_QUOTED) $(EXECUTABLES_QUOTED) "./*/*.d" "./*/*/*.d"  $(ProjDirPath)/FLASH/EnergyHarvesting.elf
+	-$(RM) $(S_DEPS_QUOTED) $(SECONDARY_FLASH_QUOTED) "./*/*/*/*.o" "./*/*.o" "./*/*/*.o"  $(S_UPPER_DEPS_QUOTED) $(ASM_DEPS_QUOTED) $(SECONDARY_SIZE_QUOTED) $(ASM_UPPER_DEPS_QUOTED) $(SX_DEPS_QUOTED) $(EXECUTABLES_QUOTED) "./*/*/*/*.d" "./*/*.d" "./*/*/*.d"  $(ProjDirPath)/FLASH/EnergyHarvesting.elf
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_SIZE)
